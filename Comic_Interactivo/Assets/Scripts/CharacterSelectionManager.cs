@@ -34,7 +34,6 @@ public class CharacterSelectionManager : MonoBehaviour
     }
 
     /// Guarda la selección usando PlayerPrefs.
-    /// Escalable a JSON/DB si el proyecto crece.
     private void SaveSelection()
     {
         PlayerPrefs.SetString(CHARACTER_KEY, selectedCharacterID);
